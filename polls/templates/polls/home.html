@@ -1,0 +1,15 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+    <center>
+    <h1> Hello {{ name }} Events For {{ month }}  {{ year }} </h1>
+
+    AS os {{ time }}
+    <br/><br/>
+
+    {{ cal| safe}} 
+    <br/><br/><br/><br/>
+    Coprying (c) {{ current_year}}
+
+    </center>
+{% endblock %}
