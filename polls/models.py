@@ -1,5 +1,5 @@
 from django.db import models # as M
-
+#from django.contrib.auth.models import User
 # Create your models here.
 # import os
 
